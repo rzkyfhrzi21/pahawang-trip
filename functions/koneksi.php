@@ -11,10 +11,10 @@ if ($host === 'localhost' || strpos($host, '127.0.0.1') !== false) {
     $database   = 'pahawang_trip';
 } else {
     // Konfigurasi untuk Hosting
-    $server     = 'localhost';
-    $username   = 'zfkwrvad_pahawangtrip';
-    $password   = '123123123';
-    $database   = 'zfkwrvad_pahawangtrip';
+    $server     = '';
+    $username   = '';
+    $password   = '';
+    $database   = '';
 }
 
 // Membuat koneksi ke database
